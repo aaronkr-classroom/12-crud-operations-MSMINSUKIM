@@ -44,7 +44,7 @@ module.exports = {
     let userParams = {
       name: {
         first: req.body.first,
-        last: req.body.last,
+        last: req.body.last, 
       },
       email: req.body.email,
       username: req.body.username,
